@@ -1,0 +1,10 @@
+pandas 
+pika>=0.11.0
+redis 
+sklearn
+numpy 
+scipy 
+joblib
+json
+os
+PyQt5

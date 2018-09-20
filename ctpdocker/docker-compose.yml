@@ -1,0 +1,12 @@
+
+## configuration to build rabbitmq and log stash and elasticsearch.
+
+rabbitmq:
+   image: rabbitmq:3-management
+   ports:
+    - "8080:15672"
+
+ml_model:
+   build: ./ml-model
+   links:
+    - rabbitmq 
